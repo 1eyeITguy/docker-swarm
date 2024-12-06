@@ -21,19 +21,19 @@ echo -e " \033[32;5m                                                           \
 #############################################
 
 # Set the IP addresses of the admin, managers, and workers nodes
-admin=192.168.3.5
-manager1=192.168.3.21
-manager2=192.168.3.22
-manager3=192.168.3.23
-worker1=192.168.3.24
-worker2=192.168.3.25
+admin=192.168.2.40
+manager1=192.168.2.41
+manager2=192.168.2.42
+manager3=192.168.2.43
+worker1=192.168.2.44
+worker2=192.168.2.45
 
 # Set the workers' hostnames (if using cloud-init in Proxmox it's the name of the VM)
 workerHostname1=dockerSwarm-04
 workerHostname2=dockerSwarm-05
 
 # User of remote machines
-user=ubuntu
+user=matt
 
 # Interface used on remotes
 interface=eth0
